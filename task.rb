@@ -232,7 +232,6 @@ end
 
 class Zoo
   # 以下に回答を記載
-  attr_accessor :name, :entry_fee
   def initialize(name:, entry_fee:)
     @zoo_name = name
     @entry_fee = entry_fee
